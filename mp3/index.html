@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Music app that have only one song- Made by soya">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="mp3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Music App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="body-music">
+            <h3>Skechers (feat. Tyga) - Remix (Official Audio)</h3>
+            <img src="/img/alena-aenami-comet-c.jpg" alt="img">
+            <div class="nav-1">
+                <button class="Loop-audio"><img src="/img/iconmonstr-media-control-39 1.svg" alt="loop"></button>
+                <button class="fav-audio"><img src="/img/iconmonstr-favorite-13 1.svg" alt="heart"></button>
+                <button class="sound-audio"><img src="/img/iconmonstr-audio-21 1.svg" alt="sound" class="sound-on"></button>
+            </div>
+
+            <div class="slider">
+                <input id="range" class="level" type="range" value="0" min="0" max="0">
+                <span class="start-duration"><p>0 : 00</p></span>
+                <span class="end-duration"><p>0:00</p></span>
+            </div>
+            <div class="nav-2">
+                <button class="revers"><img src="/img/iconmonstr-media-control-22 1.svg" alt="loop" ></button>
+                <button><img src="/img/Vector.svg" alt="loop"  class="play"></button>
+                <button class="next"><img src="/img/iconmonstr-media-control-17 1.svg" alt="loop"></button>
+            </div>
+        </div>
+    </div>
+    <audio src="/Skechers (feat. Tyga) - Remix (Official Audio).mp3" class="music"></audio>
+    <script src="app.js"></script>
+</body>
+
+</html>
